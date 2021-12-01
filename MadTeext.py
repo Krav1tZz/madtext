@@ -4,6 +4,7 @@ madText3 = ["", "", "", "", ""]
 madText4 = ["", "", "", "", ""]
 madText5 = ["", "", "", "", ""]
 
+
 def pirmaiSpeletajs():
     speletajs1 = input("Ka sauc 1 speletajs?")
     speletajs1 = speletajs1.title()
@@ -63,6 +64,7 @@ def piektaiSpeletajs():
     madText2[3] = input("KO DARĪJA?")
     madText1[4] = input("KAS SANĀCA?")
 
+    
 if __name__ == '__main__':
   print("MadText. Katrs spēlētājs atbild uz jautājumu,"
         " aizloka lapiņu un padot tālāk nākamajam spēlētājam līdz ir atbildēts uz visiem jautājumiem."
